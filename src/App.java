@@ -28,11 +28,11 @@ class FuncionarioHorista implements Funcionario {
 // classe principal
 public class Main {
     public static void main(String[] args) {
-        // vai estar fazendo o salario de um funcionário assalariado
+        // vai estar exibindo o bonus que o funcionario assalriado ganha
         Funcionario funcionario1 = new FuncionarioAssalariado();
         System.out.println("Bônus do Funcionário Assalariado: R$ " + funcionario1.calcularBonus());
 
-        // vai estar fazendo o salario de um funcionario horista com o tonal no ano que ele vai receber
+        // vai estar exibindo o bonus que o funcionario horista ganha
         Funcionario funcionario2 = new FuncionarioHorista(1800.00); 
         System.out.println("Bônus do Funcionário Horista: R$ " + funcionario2.calcularBonus());
     }
