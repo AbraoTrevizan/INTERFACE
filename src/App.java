@@ -28,7 +28,7 @@ class FuncionarioHorista implements Funcionario {
 // classe principal
 public class Main {
     public static void main(String[] args) {
-        // vai estar exibindo o bonus que o funcionario assalriado ganha
+        // vai estar exibindo o bonus que o funcionario assalariado ganha
         Funcionario funcionario1 = new FuncionarioAssalariado();
         System.out.println("Bônus do Funcionário Assalariado: R$ " + funcionario1.calcularBonus());
 
